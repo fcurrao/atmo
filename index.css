@@ -1,0 +1,110 @@
+html{
+	font-family: 'Heebo',Helvetica,Arial,Lucida,sans-serif;
+}
+a{
+	text-decoration: none !important;
+	font-weight: 600;
+	font-size: 18px;
+}
+h1 {
+	font-family: 'Heebo',Helvetica,Arial,Lucida,sans-serif;
+	margin: 0px !important;
+	color: white;
+	text-align: center;
+	font-size: 65px;
+	text-shadow: 0.5px 1px white;
+}
+
+.navbar{
+	top: -3%;
+	height: 12%;
+	border-radius: 1%;
+	box-shadow: 0 0  18px 4px #ff6900 ;
+	-webkit-transition: transform 0.2s ease-in-out;
+	position: fixed;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 100%;
+    }
+.navbar p{
+	color: black;
+	font-size: 22px;
+}
+ .navbar p:hover{
+ 	color: #ff6900;
+ 	transform:scale(1.40);
+	-webkit-transition: transform 0.1s ease-in-out;	
+ }
+
+.medioseparador{
+	width: 100%;
+	height: 100px;
+}
+
+.separador{
+	width: 100%;
+	height: 100px;
+}
+.news{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.card {
+	border-radius: 10%;
+    width: 24.5%;
+    height: 320px;
+}
+
+.card:hover{
+		border-radius: 10%;
+	box-shadow: 0 0  30px 6px #f5c610 ;
+	transform:scale(1.10);
+	-webkit-transition: transform 0.2s ease-in-out;
+
+
+}
+
+.textup{
+	color: white;
+    position: relative;
+    bottom: 22%;
+    left: 3%;
+}
+
+.title {
+	display: flex;
+    background-color: #ff6900;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title2 {
+	    padding-top: 50px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://static.eldiario.es/clip/300aacc5-e4ca-45f3-9e57-3c326b767c66_16-9-discover-aspect-ratio_default_0.jpg);
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    background-position-y: center;
+}
+
+
+
+
+
+.title2 h1{
+	text-shadow: 2px 2px black;
+}
